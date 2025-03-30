@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="js/validation.js"></script> <!--Đoạn này để link với javascript để check nếu đề yc validation-->
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <!--<form action="LoginServlet" method="POST"> code cũ<!--> <form id="loginForm" action="LoginServlet" method="POST" onsubmit="return validateLogin()">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <small id="emailError" class="error-message"></small> <!--Thông báo lỗi nếu có dòng này bổ sung nếu đề yc valid-->
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <small id="emailError" class="error-message"></small> <!--Thông báo lỗi nếu có dòng này bổ sung nếu đề yc valid-->
+            
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
